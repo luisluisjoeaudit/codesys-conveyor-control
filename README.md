@@ -12,8 +12,8 @@ At the moment, there will be no hardware which will be used. Instead, the projec
 Right now, my main goal is to get myself a solid foundation in PLC programming and logic development, specifically fault handling and HMI vizualization. My project should ensure that the conveyer belt can manage normal operations, process conditions, and detect faults, which will aid me in developing and testing control logic. 
 
 ## Software 
-CODESYS version: V3.5 SP22 Patch 2 
-Program Language: Ladder Logic 
+CODESYS version: V3.5 SP22 Patch 2   
+Program Language: Ladder Logic   
 Simulation: CODESYS Control Win V3 x64
 
 ## Features
