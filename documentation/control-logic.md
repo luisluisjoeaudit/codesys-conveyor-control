@@ -9,7 +9,7 @@ My main objective is to create a startup sequence for my conveyor belt that warn
 
 The startup sequence activates a siren for five seconds before the conveyor belt starts. To accomplish this, I added an internal variable called System_Run to create a latching circuit with Start_PB.
 
-![alt text](Startup_Sequence_Logic.png)
+![alt](../screenshots/Startup_Sequence_Logic.png)
 
 - System_Run is used as the coil for the rung.
 - A parallel branch with another System_Run contact creates the latching circuit.
@@ -23,7 +23,7 @@ I connected Startup_Timer to System_Run, allowing the timer to begin counting to
 - When the timer reaches its five-second preset, Startup_Timer.Q becomes TRUE, opening the normally closed contact and de-energizing Siren_Output.
 - The siren logic must also ensure that the siren only activates when the startup sequence is active.
 
-![alt text](Startup_TON_Setup.png)
+![alt text](../screenshots/Startup_TON_Setup.png)
 
 ### Emergency-Stop Response
 
