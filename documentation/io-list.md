@@ -38,4 +38,4 @@ This document lists the variables used in my CODESYS conveyor control project. V
 |---|---|
 | Startup delay | 5 seconds |
 | Normal-stop delay | 5 seconds |
-| Product-counter preset | 10 |
+ Product-counter preset | 10 | 

@@ -31,3 +31,7 @@ In case a fault happens during operation, I have implemented an emergency stop a
 
 - When the emergency-stop condition is activated, the simulated motor command should be disabled immediately without waiting for the normal-stop timer.
 - This simulation does not replace a real safety-rated emergency-stop system.
+
+## Conveyer Stop Sequence 
+
+Similar to the startup sequence, I have implemented a TON timer to allow staff to back away from the conveyer belt. 
